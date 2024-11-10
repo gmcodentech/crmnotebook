@@ -108,6 +108,9 @@ height:auto;
 	padding:10px;
 }
 @media only screen and (max-width: 600px) {
+	body{
+		font-size:1em;
+	}
 #content
 {	width:100%;
 }
