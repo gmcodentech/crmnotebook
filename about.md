@@ -12,5 +12,5 @@ Hello! I'm [Your Name], a developer passionate about building simple and effecti
 - To share knowledge and grow the developer community.
 
 ### Contact Me
-- [GitHub](https://github.com/your-username)
-- [LinkedIn](https://linkedin.com/in/your-profile)
+- [GitHub](#)
+- [LinkedIn](#)
