@@ -1,7 +1,3 @@
-**Understanding the Difference Between an Account and a Customer in CRM**
-
-  
-
 ### Understanding the Difference Between an Account and a Customer in CRM
 
 **Introduction**
