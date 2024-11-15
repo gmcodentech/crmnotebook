@@ -1,9 +1,3 @@
-		<strong>Understanding the Difference Between an Account and a Customer in CRM</strong>
-					<div id="display_content">
-					<p class="western" align="left" style="line-height: 100%; margin-bottom: 0cm">
-<br/>
-
-</p>
 <h3 class="western" align="left">Understanding the Difference Between
 an Account and a Customer in CRM</h3>
 <p class="western" align="left"><b>Introduction</b></p>
@@ -122,6 +116,4 @@ well-structured and supports your business goals.</p>
 on maximizing the value of your CRM system!</p>
 <p class="western" align="left" style="line-height: 100%; margin-bottom: 0cm">
 <br/>
-
 </p>
-					</div>
