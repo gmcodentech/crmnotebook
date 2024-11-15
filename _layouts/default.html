@@ -1,51 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        header {
-            background: #007acc;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 10px 0;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 10px;
-            color: #007acc;
-            text-decoration: none;
-        }
-        footer {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 0.9em;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>{{ site.title }}</h1>
-    </header>
-    <nav>
-        <a href="/crmnotebook/index">Home</a>
-        <a href="/crmnotebook/about">About</a>
-        <a href="/projects.html">Projects</a>
-    </nav>
-    <main>
-        {{ content }}
-    </main>
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
-    </footer>
-</body>
+<html lang="en">  
+	<head>
+     <meta charset="utf-8" 
+          name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0" />
+        <title>{{ page.title }}</title>
+	<link href="site.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="header_content"><span style="color:#636363;font-size:29px;border-bottom:1px solid #333;">CRM Notebook</span>
+				<div style="margin-top:10px;maring-right:10px;font-size:10px;">
+				<a href="#">HOME</a> | <a href="#">ABOUT</a> | <a href="#">CONTACT</a></div>
+				</div>
+				
+			</div>
+			<div id="middle">
+				<div id="content">
+					<div id="content_content">
+                        {{ content }}
+                        </div>
+					
+				</div>
+				<div id="side">
+					<div id="side_content">
+					<strong>Latest posts</strong>
+					<div class="box">
+						<a href="#">Understanding the Difference Between an Account and a Customer in CRM</a>
+					</div>
+					<div class="box">
+						<a href="#">100 CRM Concepts</a>
+					</div>
+					<div class="box">
+						<a href="#">Understand Targets and Convert Them To Leads</a>
+					</div>
+					<div class="box">
+						<a href="#">Difference between Quotes and Invoices</a>
+					</div>
+					<div class="box">
+						<a href="#">View more posts</a>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="footer_content">Developed for learning CRM Concepts and Software
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
