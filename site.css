@@ -3,8 +3,6 @@ body
 	margin:0px;
 	padding:0px;
 	font-family: "Segoe UI",Arial,Sans-Serif;
-
-	line-height:20px;
 	font-size:0.842em;
 	color:#666;
 	background-color:#f8f8f8;
@@ -34,7 +32,7 @@ strong
 }
 #header
 {
-	height:100px;
+	height:110px;
 	margin-bottom:2px;
 	border-bottom:1px solid #ddd;
 }
