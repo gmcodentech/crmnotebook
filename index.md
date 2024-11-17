@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: CRM Notebook Home
 ---
 # Difference Between an Account and a Customer in CRM
 
