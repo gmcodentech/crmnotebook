@@ -13,7 +13,7 @@ The Access tab in SuiteCRM's User Detail View displays information about the mod
 **The Code**
 Below is the PHP code I used to achieve this customization. This code overrides the default User Detail View and sets the SHOW_ROLES parameter to false, effectively hiding the Access tab.
 
-```PHP
+```php
 <?php
 if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
