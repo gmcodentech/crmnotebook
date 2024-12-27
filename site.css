@@ -16,7 +16,7 @@ strong
 {color:#F6871E;}
 #wrapper
 {
-	margin:50px auto;
+	margin:1px auto;
 	padding:0px;
 	width:80%;
 	background-color:#fffffa;
@@ -63,6 +63,11 @@ pre{
 	background-color:#efefef;
 	padding:3px;
 	border:1px solid #aaa;
+		white-space: pre-wrap;   
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;   
+    white-space: -o-pre-wrap;  
+    word-wrap: break-word;  
 }
 
 #middle
